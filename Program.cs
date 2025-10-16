@@ -12,7 +12,7 @@ namespace LabWork
     {
         protected const int Columns = 3;
         protected const int Rows = 3;
-        protected double[,] matrix = new double[Columns, Rows];
+        private double[,] matrix = new double[Columns, Rows];
 
         public virtual void InputFromKeyboard()
         {
